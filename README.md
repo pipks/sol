@@ -1,4 +1,4 @@
-![](spl.png)
+![](https://github.com/SolanaMemeLab/sol-sniper-bot/blob/cebe18f309719a07272b1baf8ae25a884e1655b1/readme/SOLMEMELAB%20bg.png)
 
 **Solana SPL Token Sniper Bot** that listens to new Raydium USDC or SOL pools and buys tokens for a fixed amount in USDC/SOL.
 Depending on the speed of the RPC node, the purchase usually happens before the token is available on Raydium UI for swapping.
@@ -22,7 +22,7 @@ To run the script you need to:
 
 `Jupiter Wrap` : https://jup.ag/
 
-![](jupiterwrap.png)
+![](https://github.com/SolanaMemeLab/sol-sniper-bot/blob/cebe18f309719a07272b1baf8ae25a884e1655b1/readme/jupiterwrap.png)
 
 ## CONFIG
 1. Configure the script by updating `.env.copy` file (**remove the .copy from the file name when done**).
@@ -44,15 +44,15 @@ To run the script you need to:
 
 **Don't forget to check Birdeye API, if API key is not working, some bot functions such as TP/SL, Min/Max Liquidity etc may not work correctly or not work at all. If you follow the instructions there should be no errors.
 
-![](bird.png)
+![](https://github.com/SolanaMemeLab/sol-sniper-bot/blob/cebe18f309719a07272b1baf8ae25a884e1655b1/readme/bird.png)
 
-![](env.png)
+![](https://github.com/SolanaMemeLab/sol-sniper-bot/blob/cebe18f309719a07272b1baf8ae25a884e1655b1/readme/env.png)
   
 ## INSTALL
 1. Install dependencies by typing: `npm install`
 2. Run the script by typing: `npm run buy` in terminal
 
-![](preview.png)
+![](https://github.com/SolanaMemeLab/sol-sniper-bot/blob/cebe18f309719a07272b1baf8ae25a884e1655b1/readme/preview.png)
 
 ## TAKE PROFIT
 
@@ -73,7 +73,7 @@ By default, auto sell is enabled. If you want to disable it, you need to:
 If you set AUTO_SELL_DELAY to 0, token will be sold immediately after it is bought.
 There is no guarantee that the token will be sold at a profit or even sold at all. The developer is not responsible for any losses incurred by using this feature.
 
-![](token.png)
+![](https://github.com/SolanaMemeLab/sol-sniper-bot/blob/cebe18f309719a07272b1baf8ae25a884e1655b1/readme/token.png)
 
 ## SNIPE LIST
 By default, script buys each token which has a new liquidity pool created and open for trading.
@@ -88,7 +88,7 @@ You can update the list while script is running. Script will check for new value
 Pool must not exist before the script starts.
 It will buy only when new pool is open for trading. If you want to buy token that will be launched in the future, make sure that script is running before the launch.
 
-![](snipelist.png)
+![](https://github.com/SolanaMemeLab/sol-sniper-bot/blob/cebe18f309719a07272b1baf8ae25a884e1655b1/readme/snipelist.png)
 
 
 ## COMMON ISSUES
