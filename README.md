@@ -42,7 +42,7 @@ To run the script you need to:
 15. `STOP_LOSS=50` (in %)
 16. `BIRDEYE_API_KEY=` (TP/SL, Burn/Lock) generate here : https://docs.birdeye.so/docs/authentication-api-keys
 
-**Don't forget to check Birdeye API, if API key is not working, some bot functions such as TP/SL, Min/Max Liquidity etc may not work correctly or not work at all. If you follow the instructions there should be no errors.
+**Don't forget to check Birdeye API, if API key is not working, some bot functions such as TP/SL, Min/Max Liquidity etc may not work correctly or not work at all. If you follow the instructions there should be no errors.**
 
 ![](https://github.com/SolanaMemeLab/sol-sniper-bot/blob/cebe18f309719a07272b1baf8ae25a884e1655b1/readme/bird.png)
 
